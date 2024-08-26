@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.menu{
+    display: inline-block;
+    background-color: white;
+    padding: 10px 122px;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px gainsboro;
+    
+}
+.menu:hover{
+    background-color: rosybrown;
+}
+h1 {
+    text-align: center;
+}
+.regalos{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+.regalos::before{
+    content: attr(data-text); 
+    position: absolute;       
+    top: 0;                   
+    left: 50%;                
+    transform: translateX(-50%); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;            
+    padding: 5px 10px;      
+    text-align: center;      
+    width: 100%;             
+    box-sizing: border-box;
+}
