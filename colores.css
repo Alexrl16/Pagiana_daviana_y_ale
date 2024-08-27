@@ -20,9 +20,10 @@ h1 {
     text-align: center;
 }
 .regalos{ 
+    display: flex;
     justify-content: center; 
 }
 .regalos img{
- display: inline-block;
- margin: 0 10px;
-}
+    
+    margin: 0 10px;
+   }
