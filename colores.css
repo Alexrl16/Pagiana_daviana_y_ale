@@ -19,24 +19,10 @@ body {
 h1 {
     text-align: center;
 }
-.regalos{
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-
+.regalos{ 
+    justify-content: center; 
 }
-.regalos::before{
-    content: attr(data-text); 
-    position: absolute;       
-    top: 0;                   
-    left: 50%;                
-    transform: translateX(-50%); 
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: white;            
-    padding: 5px 10px;      
-    text-align: center;      
-    width: 100%;             
-    box-sizing: border-box;
+.regalos img{
+ display: inline-block;
+ margin: 0 10px;
 }
